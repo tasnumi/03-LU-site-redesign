@@ -305,4 +305,13 @@ footer {
   .footer-nav ul {
     padding-bottom: 40px;
   }
+
+}
+
+@media (max-width: 1024px) {
+  .footer-content {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+  }
 }
